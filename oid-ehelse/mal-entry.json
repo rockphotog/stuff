@@ -1,0 +1,9 @@
+{ "entry" : [
+    { "oid " : "" },
+    { "urn " : "urn:oid:" },
+    { "name" : "" },
+    { "description" : "" },
+    { "owner" : "Direkoratet for e-helse" },
+    { "inuse" : true },
+    { "comment" : "" }
+]},
