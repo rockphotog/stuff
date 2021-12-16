@@ -15,6 +15,14 @@
             { "inuse" : true }
         ]},
         { "entry" : [
+            { "oid " : "2.16.578.1.12.4.1" },
+            { "urn " : "urn:oid:2.16.578.1.12.4.1" },
+            { "name" : "tildelt-av-kith" },
+            { "description" : "Rot for oid'er tildelt av KITH" },
+            { "owner" : "Direkoratet for e-helse" },
+            { "inuse" : true }
+        ]},
+        { "entry" : [
             { "oid " : "2.16.578.1.12.4.1.1" },
             { "urn " : "urn:oid:2.16.578.1.12.4.1.1" },
             { "name" : "kodeverk" },
@@ -23,11 +31,40 @@
             { "inuse" : true }
         ]},
         { "entry" : [
+            { "oid " : "2.16.578.1.12.4.1.2" },
+            { "urn " : "urn:oid:2.16.578.1.12.4.1.2" },
+            { "name" : "her-id" },
+            { "description" : "Rot for HER-id'er" },
+            { "owner" : "Norsk helsenett" },
+            { "inuse" : true }
+        ]},
+        { "entry" : [
+            { "oid " : "2.16.578.1.12.4.1.4" },
+            { "urn " : "urn:oid:2.16.578.1.12.4.1.4" },
+            { "name" : "identifikator" },
+            { "description" : "Rot for Identifikatorer" },
+            { "owner" : "Direkoratet for e-helse" },
+            { "inuse" : false },
+            { "comment" : "Opprettet, men ikke tatt i bruk" }
+        ]},
+        { "entry" : [
             { "oid" : "2.16.578.1.12.4.1.4.1" },
             { "urn" : "urn:oid:2.16.578.1.12.4.1.4.1" },
             { "name" : "fødselsnummer" },
             { "description" : "Norsk fødselsnummer" },
-            { "owner" : "Skattedirektoratet"}
+            { "owner" : "Skattedirektoratet"},
+            { "inuse" : true },
+            { "comment" : "Opprettet, men ikke tatt i bruk" },
+            { "__need-QA__" : true }
+        ]},
+        { "entry" : [
+            { "oid " : "" },
+            { "urn " : "urn:oid:" },
+            { "name" : "" },
+            { "description" : "" },
+            { "owner" : "Direkoratet for e-helse" },
+            { "inuse" : true },
+            { "comment" : "" }
         ]}
     ]}
 ]}
