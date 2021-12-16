@@ -11,8 +11,8 @@
             { "name" : "helse-og-sosialsektoren" },
             { "description" : "Rot for helse- og sosialsektoren" },
             { "owner" : "Direkoratet for e-helse" },
-            { "comment" : "In use" },
-            { "inuse" : true }
+            { "inuse" : true },
+            { "comment" : "In use" }
         ]},
 
         { "entry" : [
