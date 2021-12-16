@@ -10,8 +10,8 @@ Helsepersonellnummer (HPR);2.16.578.1.12.4.1.4.4;hpr-nummer;Statens autorisasjon
 DUF-nummer;2.16.578.1.12.4.1.4.5;duf-nummer;Utlendingsdirektoratet;forslag (aksept fra helse vest);;;;;
 Organisasjonsnummeret i Enhetsregister (Brønnøysund);2.16.578.1.12.4.1.4.101;Organisasjonsnummer;Brønnøysundregistrene;forslag (aksept fra helse vest);;;;;
 RESH-id (Nasjonalt register over enheter i spesialisthelsetjenesten);2.16.578.1.12.4.1.4.102;resh-id;Spesialisthelsetjenesten;forslag (aksept fra helse vest);;;;;
-SYSVAK institusjonsnummer;2.16.578.1.12.4.1.4.105;SYSVAK institusjonsnummer;INGEN DATA;"Usikker på om denne er i bruk eller hører til ""gammel"" Sysvak-løsnin";Ikke lagt ut på www.kith.no;;;;
-Apotekets identifikasjonsnummer;2.16.578.1.12.4.1.4.106;Apotekets identifikasjonsnummer;INGEN DATA;"Usikker på om denne er i bruk eller hører til ""gammel"" eResept";Ikke lagt ut på www.kith.no;;;;
+SYSVAK institusjonsnummer;2.16.578.1.12.4.1.4.105;SYSVAK institusjonsnummer;INGEN DATA;"Usikker på om denne er i bruk eller hører til gammel Sysvak-løsnin";Ikke lagt ut på www.kith.no;;;;
+Apotekets identifikasjonsnummer;2.16.578.1.12.4.1.4.106;Apotekets identifikasjonsnummer;INGEN DATA;"Usikker på om denne er i bruk eller hører til gammel eResept";Ikke lagt ut på www.kith.no;;;;
 Apotekets konsesjonsnummer;2.16.578.1.12.4.1.4.107;apotekets-konsesjonsnummer;Statens Legemiddelverk;forslag (aksept fra helse vest);;;;;
 Rot for standarder;2.16.578.1.12.4.1.5;standard;KITH AS;I bruk;Ikke lagt ut på www.kith.no;;;;
 Rot for EPJ-komponenter;2.16.578.1.12.4.1.6.;epj-komponenttype;KITH AS;I bruk;;;;;
