@@ -7,15 +7,16 @@
 
         { "entry" : [
             { "oid " : "2.16.578.1.12.4" },
+            { "oid-urn " : "urn:oid:2.16.578.1.12.4" },
             { "name" : "helse-og-sosialsektoren" },
             { "description" : "Rot for helse- og sosialsektoren" },
             { "owner" : "Direkoratet for e-helse" },
-            { "comment" : "In use" },
-            { "__comment__" : "Usikker på om vi skal ha kommentarer, og kun gyldige/i bruk" }
+            { "comment" : "In use" }
         ]},
 
         { "entry" : [
             { "oid" : "2.16.578.1.12.4.1.4.1" },
+            { "oid-urn" : "urn:oid:2.16.578.1.12.4.1.4.1" },
             { "name" : "fødselsnummer" },
             { "description" : "Norsk fødselsnummer" },
             { "owner" : "Skattedirektoratet"}
