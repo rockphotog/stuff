@@ -50,7 +50,7 @@
             { "description" : "Rot for Identifikatorer" },
             { "owner" : "Direkoratet for e-helse" },
             { "inuse" : false },
-            { "__comment__" : "Opprettet, men ikke tatt i bruk" }
+            { "__comment__" : "Opprettet, men ikke tatt i bruk; Espen: sette til inuse=true" }
         ]},
 
         { "entry" : [
@@ -60,7 +60,7 @@
             { "description" : "Norsk fødselsnummer" },
             { "owner" : "Skattedirektoratet"},
             { "inuse" : true },
-            { "__comment__" : "Opprettet, men ikke tatt i bruk" },
+            { "__comment__" : "Opprettet, men ikke tatt i bruk;tatt i bruk FHIR basisprofil" },
             { "__needsQA__" : true }
         ]},
 
@@ -71,7 +71,7 @@
             { "description" : "D-nummer" },
             { "owner" : "Skattedirektoratet" },
             { "inuse" : false },
-            { "__comment__" : "forslag (i konflikt med helse vest)" },
+            { "__comment__" : "forslag (i konflikt med helse vest); Espen: sette til inuse=true; se også engelse beskrivelser i basis-profiler" },
             { "__needsQA__" : true }
         ]},
 
@@ -82,7 +82,7 @@
             { "description" : "H-nummer (offisielt hjelpenummer)" },
             { "owner" : "Norsk helsenett" },
             { "inuse" : true },
-            { "__comment__" : "forslag (aksept fra helse vest)" },
+            { "__comment__" : "forslag (aksept fra helse vest) ; Espen: Fjerne kommentar..." },
             { "__needsQA__" : true }
         ]},
 
@@ -93,7 +93,7 @@
             { "description" : "Helsepersonellnummer (HPR)" },
             { "owner" : "Statens autorisasjonskontor for Helsepersonell (SAFH)" },
             { "inuse" : true },
-            { "__comment__" : "forslag (aksept fra helse vest)" },
+            { "__comment__" : "forslag (aksept fra helse vest); Espen: Fjerne kommentar..." },
             { "__needsQA__" : true }    
         ]},
         
@@ -104,7 +104,8 @@
             { "description" : "DUF-nummer" },
             { "owner" : "Utlendingsdirektoratet" },
             { "inuse" : true },
-            { "__comment__" : "forslag (aksept fra helse vest)" }
+            { "__comment__" : "forslag (aksept fra helse vest); Espen: Fjerne kommentar..." },
+            { "__needsQA__" : true } 
         ]},
 
         { "entry" : [
@@ -114,7 +115,7 @@
             { "description" : "Organisasjonsnummeret i Enhetsregister (Brønnøysund)" },
             { "owner" : "Brønnøysundregistrene" },
             { "inuse" : true },
-            { "__comment__" : "forslag (aksept fra helse vest)" },
+            { "__comment__" : "forslag (aksept fra helse vest);se på språk;" },
             { "__needsQA__" : true } 
         ]},    
 
