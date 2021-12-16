@@ -1,9 +1,9 @@
 { "oid-ehelse" : [
     { "info" : [
-        { "master" : "https://sarepta.ehelse.no/TODO" },
+        { "master" : "https://raw.githubusercontent.com/rockphotog/stuff/main/oid-ehelse/oid-ehelse.json" },
         { "updated" : "2021-12-16T22:34:00.00" }, 
         { "contact" : "meldingshjelp@ehelse.no" },
-        { "__comment__" : "Arbeidskladd - Espen - test" }
+        { "__comment__" : "Arbeidskladd - Espen - test - do not use" }
     ]},
     { "list" : [
 
