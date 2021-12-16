@@ -3,7 +3,8 @@
     { "urn " : "urn:oid:" },
     { "name" : "" },
     { "description" : "" },
-    { "owner" : "Direkoratet for e-helse" },
+    { "owner" : "" },
     { "inuse" : true },
-    { "comment" : "" }
-]},
+    { "__comment__" : "" },
+    { "__needsQA__" : true } 
+]}

@@ -1,8 +1,9 @@
 { "oid-ehelse" : [
-    { "information" : [
-        { "updated" : "2021-12-16T11:20:00.00" }, 
+    { "info" : [
+        { "master" : "https://sarepta.ehelse.no/TODO" },
+        { "updated" : "2021-12-16T22:34:00.00" }, 
         { "contact" : "meldingshjelp@ehelse.no" },
-        { "_comment_" : "Arbeidskladd - Espen - test" }
+        { "__comment__" : "Arbeidskladd - Espen - test" }
     ]},
     { "list" : [
 
@@ -14,6 +15,7 @@
             { "owner" : "Direkoratet for e-helse" },
             { "inuse" : true }
         ]},
+
         { "entry" : [
             { "oid " : "2.16.578.1.12.4.1" },
             { "urn " : "urn:oid:2.16.578.1.12.4.1" },
@@ -22,6 +24,7 @@
             { "owner" : "Direkoratet for e-helse" },
             { "inuse" : true }
         ]},
+
         { "entry" : [
             { "oid " : "2.16.578.1.12.4.1.1" },
             { "urn " : "urn:oid:2.16.578.1.12.4.1.1" },
@@ -30,6 +33,7 @@
             { "owner" : "Direkoratet for e-helse" },
             { "inuse" : true }
         ]},
+
         { "entry" : [
             { "oid " : "2.16.578.1.12.4.1.2" },
             { "urn " : "urn:oid:2.16.578.1.12.4.1.2" },
@@ -38,6 +42,7 @@
             { "owner" : "Norsk helsenett" },
             { "inuse" : true }
         ]},
+
         { "entry" : [
             { "oid " : "2.16.578.1.12.4.1.4" },
             { "urn " : "urn:oid:2.16.578.1.12.4.1.4" },
@@ -45,8 +50,9 @@
             { "description" : "Rot for Identifikatorer" },
             { "owner" : "Direkoratet for e-helse" },
             { "inuse" : false },
-            { "comment" : "Opprettet, men ikke tatt i bruk" }
+            { "__comment__" : "Opprettet, men ikke tatt i bruk" }
         ]},
+
         { "entry" : [
             { "oid" : "2.16.578.1.12.4.1.4.1" },
             { "urn" : "urn:oid:2.16.578.1.12.4.1.4.1" },
@@ -54,17 +60,266 @@
             { "description" : "Norsk fødselsnummer" },
             { "owner" : "Skattedirektoratet"},
             { "inuse" : true },
-            { "comment" : "Opprettet, men ikke tatt i bruk" },
-            { "__need-QA__" : true }
+            { "__comment__" : "Opprettet, men ikke tatt i bruk" },
+            { "__needsQA__" : true }
         ]},
+
         { "entry" : [
-            { "oid " : "" },
-            { "urn " : "urn:oid:" },
-            { "name" : "" },
-            { "description" : "" },
-            { "owner" : "Direkoratet for e-helse" },
+            { "oid " : "2.16.578.1.12.4.1.4.2" },
+            { "urn " : "urn:oid:2.16.578.1.12.4.1.4.2" },
+            { "name" : "d-nummer" },
+            { "description" : "D-nummer" },
+            { "owner" : "Skattedirektoratet" },
+            { "inuse" : false },
+            { "__comment__" : "forslag (i konflikt med helse vest)" },
+            { "__needsQA__" : true }
+        ]},
+
+        { "entry" : [
+            { "oid " : "2.16.578.1.12.4.1.4.3;" },
+            { "urn " : "urn:oid:2.16.578.1.12.4.1.4.3;" },
+            { "name" : "felles-hjelpenummer" },
+            { "description" : "H-nummer (offisielt hjelpenummer)" },
+            { "owner" : "Norsk helsenett" },
             { "inuse" : true },
-            { "comment" : "" }
+            { "__comment__" : "forslag (aksept fra helse vest)" },
+            { "__needsQA__" : true }
+        ]},
+
+        { "entry" : [
+            { "oid " : "2.16.578.1.12.4.1.4.4" },
+            { "urn " : "urn:oid:2.16.578.1.12.4.1.4.4" },
+            { "name" : "hpr-nummer" },
+            { "description" : "Helsepersonellnummer (HPR)" },
+            { "owner" : "Statens autorisasjonskontor for Helsepersonell (SAFH)" },
+            { "inuse" : true },
+            { "__comment__" : "forslag (aksept fra helse vest)" },
+            { "__needsQA__" : true }    
+        ]},
+        
+        { "entry" : [
+            { "oid " : "2.16.578.1.12.4.1.4.5" },
+            { "urn " : "urn:oid:2.16.578.1.12.4.1.4.5" },
+            { "name" : "duf-nummer" },
+            { "description" : "DUF-nummer" },
+            { "owner" : "Utlendingsdirektoratet" },
+            { "inuse" : true },
+            { "__comment__" : "forslag (aksept fra helse vest)" }
+        ]},
+
+        { "entry" : [
+            { "oid " : "2.16.578.1.12.4.1.4.101" },
+            { "urn " : "urn:oid:2.16.578.1.12.4.1.4.101" },
+            { "name" : "organisasjonsnummer" },
+            { "description" : "Organisasjonsnummeret i Enhetsregister (Brønnøysund)" },
+            { "owner" : "Brønnøysundregistrene" },
+            { "inuse" : true },
+            { "__comment__" : "forslag (aksept fra helse vest)" },
+            { "__needsQA__" : true } 
+        ]},    
+
+        { "entry" : [
+            { "oid " : "2.16.578.1.12.4.1.4.102" },
+            { "urn " : "urn:oid:2.16.578.1.12.4.1.4.102" },
+            { "name" : "resh-id" },
+            { "description" : "RESH-id (Nasjonalt register over enheter i spesialisthelsetjenesten)" },
+            { "owner" : "Spesialisthelsetjenesten" },
+            { "inuse" : true },
+            { "__comment__" : "forslag (aksept fra helse vest)" }
+        ]},
+        
+        { "entry" : [
+            { "oid " : "2.16.578.1.12.4.1.4.107" },
+            { "urn " : "urn:oid:2.16.578.1.12.4.1.4.107" },
+            { "name" : "apotekets-konsesjonsnummer" },
+            { "description" : "Apotekets konsesjonsnummer" },
+            { "owner" : "Statens Legemiddelverk" },
+            { "inuse" : true },
+            { "__comment__" : "forslag (aksept fra helse vest)" }
+        ]},
+
+        { "entry" : [
+            { "oid " : "2.16.578.1.12.4.1.6" },
+            { "urn " : "urn:oid:2.16.578.1.12.4.1.6" },
+            { "name" : "epj-komponenttype" },
+            { "description" : "Rot for EPJ-komponenter" },
+            { "owner" : "Direktoratet for e-helse" },
+            { "inuse" : true }
+        ]},
+
+        { "entry" : [ 
+            { "oid " : "2.16.578.1.12.4.1.6.11" },
+            { "urn " : "urn:oid:2.16.578.1.12.4.1.6.11" },
+            { "name" : "epj-dataelementtype" },
+            { "description" : "Rot for dataelementtype" },
+            { "owner" : "Direktoratet for e-helse" },
+            { "inuse" : true },
+            { "__comment__" : "" }
+        ]},
+
+        { "entry" : [
+            { "oid " : "2.16.578.1.12.4.1.6.12" },
+            { "urn " : "urn:oid:2.16.578.1.12.4.1.6.12" },
+            { "name" : "epj-fragmenttype" },
+            { "description" : "Rot for EPJ fragmenttype" },
+            { "owner" : "Direktoratet for e-helse" },
+            { "inuse" : true },
+            { "__comment__" : "" }
+        ]},
+
+        { "entry" : [ 
+            { "oid " : "2.16.578.1.12.4.1.6.13" },
+            { "urn " : "urn:oid:2.16.578.1.12.4.1.6.13" },
+            { "name" : "epj-dokumenttype" },
+            { "description" : "Rot for EPJ dokumenttype" },
+            { "owner" : "Direktoratet for e-helse" },
+            { "inuse" : true }
+        ]},
+
+        { "entry" : [
+            { "oid " : "2.16.578.1.12.4.1.6.14" },
+            { "urn " : "urn:oid:2.16.578.1.12.4.1.6.14" },
+            { "name" : "epj-sakstype" },
+            { "description" : "Rot for EPJ sakstype" },
+            { "owner" : "Direktoratet for e-helse" },
+            { "inuse" : true }
+        ]},
+
+        { "entry" : [
+            { "oid " : "2.16.578.1.12.4.2" },
+            { "urn " : "urn:oid:2.16.578.1.12.4.2" },
+            { "name" : "helse-midt-norge" },
+            { "description" : "Rot for Helse Midt-Norge" },
+            { "owner" : "Helse Midt-Norge RHF" },
+            { "inuse" : true }
+        ]},
+
+        { "entry" : [
+            { "oid " : "2.16.578.1.12.4.3" },
+            { "urn " : "urn:oid:2.16.578.1.12.4.3" },
+            { "name" : "helse-sør-øst" },
+            { "description" : "Rot for Helse SørØst" },
+            { "owner" : "Helse Sør-Øst RHF" },
+            { "inuse" : false },
+            { "__comment__" : "Opprettet, men ikke informert helse sør-øst" },
+            { "__needsQA__" : true } 
+        ]},
+
+        { "entry" : [
+            { "oid " : "2.16.578.1.12.4.4" },
+            { "urn " : "urn:oid:2.16.578.1.12.4.4" },
+            { "name" : "helse-nord" },
+            { "description" : "Rot for Helse Nord" },
+            { "owner" : "Helse Nord RHF" },
+            { "inuse" : false },
+            { "__comment__" : "Opprettet, men ikke informert helse nord" }
+        ]},
+
+        { "entry" : [
+            { "oid " : "2.16.578.1.12.4.1.7" },
+            { "urn " : "urn:oid:2.16.578.1.12.4.1.7" },
+            { "name" : "dokumentdeling" },
+            { "description" : "Rot for dokumentdeling" },
+            { "owner" : "Direktoratet for e-helse" },
+            { "inuse" : true }
+        ]},
+
+        { "entry" : [
+            { "oid " : "2.16.578.1.12.4.1.7.1" },
+            { "urn " : "urn:oid:2.16.578.1.12.4.1.7.1" },
+            { "name" : "affinity domains" },
+            { "description" : "" },
+            { "owner" : "Direktoratet for e-helse" },
+            { "inuse" : true },
+            { "__comment__" : "Følger ikke navnestandard" },
+            { "__needsQA__" : true } 
+        ]},
+
+        { "entry" : [
+            { "oid " : "2.16.578.1.12.4.1.7.1.1" },
+            { "urn " : "urn:oid:2.16.578.1.12.4.1.7.1.1" },
+            { "name" : "Helsenorge" },
+            { "description" : "" },
+            { "owner" : "Norsk helsenett" },
+            { "inuse" : true },
+            { "__comment__" : "Følger ikke navnestandard, se name/description" },
+            { "__needsQA__" : true } 
+        ]},
+
+        { "entry" : [
+            { "oid " : "2.16.578.1.12.4.1.7.1.2" },
+            { "urn " : "urn:oid:2.16.578.1.12.4.1.7.1.2" },
+            { "name" : "XCA-miljøene Helsenorge (?)" },
+            { "description" : "" },
+            { "owner" : "Norsk helsenett" },
+            { "inuse" : true },
+            { "__comment__" : "Følger ikke navnestandard, se name/description" },
+            { "__needsQA__" : true } 
+        ]},
+
+        { "entry" : [
+            { "oid " : "2.16.578.1.12.4.1.7.1.10" },
+            { "urn " : "urn:oid:2.16.578.1.12.4.1.7.1.10" },
+            { "name" : "Aleris Røntgen" },
+            { "description" : "" },
+            { "owner" : "Aleris" },
+            { "inuse" : true },
+            { "__comment__" : "Følger ikke navnestandard, se name/description" },
+            { "__needsQA__" : true } 
+        ]},
+
+        { "entry" : [
+            { "oid " : "2.16.578.1.12.4.1.7.1.11" },
+            { "urn " : "urn:oid:2.16.578.1.12.4.1.7.1.11" },
+            { "name" : "Diakonhjemmet Sykehus" },
+            { "description" : "" },
+            { "owner" : "Diakonhjemmet Sykehus AS" },
+            { "inuse" : true },
+            { "__comment__" : "Følger ikke navnestandard, se name/description" },
+            { "__needsQA__" : true } 
+        ]},
+
+        { "entry" : [
+            { "oid " : "2.16.578.1.12.4.1.8" },
+            { "urn " : "urn:oid:2.16.578.1.12.4.1.8" },
+            { "name" : "definisjonskataloger" },
+            { "description" : "" },
+            { "owner" : "Direktoratet for e-helse" },
+            { "inuse" : true }
+        ]},
+
+        { "entry" : [
+            { "oid " : "2.16.578.1.12.4.1.5" },
+            { "urn " : "urn:oid:2.16.578.1.12.4.1.5" },
+            { "name" : "standard" },
+            { "description" : "Rot for standarder" },
+            { "owner" : "Direktoratet for e-helse" },
+            { "inuse" : false },
+            { "__comment__" : "Ikke lagt ut på www.kith.no" },
+            { "__needsQA__" : true } 
+        ]},
+
+        { "entry" : [
+            { "oid " : "2.16.578.1.12.4.1.4.105" },
+            { "urn " : "urn:oid:2.16.578.1.12.4.1.4.105" },
+            { "name" : "SYSVAK institusjonsnummer" },
+            { "description" : "SYSVAK institusjonsnummer" },
+            { "owner" : "" },
+            { "inuse" : false },
+            { "__comment__" : "Usikker på om denne er i bruk eller hører til gammel Sysvak-løsnin;Ikke lagt ut på www.kith.no" },
+            { "__needsQA__" : true } 
+        ]},
+
+        { "entry" : [
+            { "oid " : "2.16.578.1.12.4.1.4.106" },
+            { "urn " : "urn:oid:2.16.578.1.12.4.1.4.106" },
+            { "name" : "Apotekets identifikasjonsnummer" },
+            { "description" : "Apotekets identifikasjonsnummer" },
+            { "owner" : "" },
+            { "inuse" : false },
+            { "__comment__" : "Usikker på om denne er i bruk eller hører til gammel eResept;Ikke lagt ut på www.kith.no" },
+            { "__needsQA__" : true } 
         ]}
-    ]}
+     
+    ]} 
 ]}
