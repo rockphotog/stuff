@@ -4,6 +4,11 @@ Maskinlesbar liste (JSON) over OID'er som [Direktoratet for e-helse](https://www
 inkludert rot-OID'er som er tildelt andre. 
 Utvikling, skal publiseres annet sted, så ikke bruk denne.
 
+# Plan
+
+- Lage JSON Schema
+- Lage _pen_ generator for XHTML-tabell
+
 ## Note to self
 
 https://json-schema.org/learn/getting-started-step-by-step (veldig klønete format, da)
