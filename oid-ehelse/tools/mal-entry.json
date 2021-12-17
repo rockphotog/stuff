@@ -16,6 +16,21 @@
             { "inuse" : true },
             { "__comment__" : "" },
             { "__needsQA__" : true } 
+        ]},
+
+        { "entry" : [
+            { "oid " : "1.3.88" },
+            { "urn " : "urn:oid:1.3.88" },
+            { "canonicalUri" : "http://www.gs1.org/gln" },
+            { "name" : "GLN" },
+            { "description" : "Global Location Number (GLN)" },
+            { "isRoot" : false },
+            { "owner" : "GS1" },
+            { "inuse" : true },
+            { "documentation" : "https://www.gs1.org/standards/id-keys/gln" }
+            { "__comment__" : "Trenger vi en uriOther (eller bedre navn) så man kan mappe? Documentation?" },
+            { "__needsQA__" : false },
+            { "__notater__" : "https://confluence.hl7.org/pages/viewpage.action?pageId=116460570" } 
         ]}
     ]}
 ]}
