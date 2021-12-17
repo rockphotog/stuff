@@ -1,0 +1,196 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "oid-ehelse": {
+        "type": "array",
+        "items": [
+          {
+            "type": "object",
+            "properties": {
+              "info": {
+                "type": "array",
+                "items": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "masterURL": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "masterURL"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "updated": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "updated"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "contact": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "contact"
+                    ]
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "__comment__": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "__comment__"
+                    ]
+                  }
+                ]
+              }
+            },
+            "required": [
+              "info"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "list": {
+                "type": "array",
+                "items": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "entry": {
+                        "type": "array",
+                        "items": [
+                          {
+                            "type": "object",
+                            "properties": {
+                              "oid ": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "oid "
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "urn ": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "urn "
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "name": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "name"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "description": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "description"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "isRoot": {
+                                "type": "boolean"
+                              }
+                            },
+                            "required": [
+                              "isRoot"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "owner": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "owner"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "inuse": {
+                                "type": "boolean"
+                              }
+                            },
+                            "required": [
+                              "inuse"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "__comment__": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "__comment__"
+                            ]
+                          },
+                          {
+                            "type": "object",
+                            "properties": {
+                              "__needsQA__": {
+                                "type": "boolean"
+                              }
+                            },
+                            "required": [
+                              "__needsQA__"
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "entry"
+                    ]
+                  }
+                ]
+              }
+            },
+            "required": [
+              "list"
+            ]
+          }
+        ]
+      }
+    },
+    "required": [
+      "oid-ehelse"
+    ]
+  }

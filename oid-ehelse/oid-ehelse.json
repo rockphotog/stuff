@@ -1,6 +1,6 @@
 { "oid-ehelse" : [
     { "info" : [
-        { "master" : "https://raw.githubusercontent.com/rockphotog/stuff/main/oid-ehelse/oid-ehelse.json" },
+        { "masterURL" : "https://raw.githubusercontent.com/rockphotog/stuff/main/oid-ehelse/oid-ehelse.json" },
         { "updated" : "2021-12-17T1:30:00.00" }, 
         { "contact" : "meldingshjelp@ehelse.no" },
         { "__comment__" : "Arbeidskladd - Espen - test - do not use" }
