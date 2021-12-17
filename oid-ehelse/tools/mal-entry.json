@@ -3,6 +3,7 @@
     { "urn " : "urn:oid:" },
     { "name" : "" },
     { "description" : "" },
+    { "isRoot" : false },
     { "owner" : "" },
     { "inuse" : true },
     { "__comment__" : "" },

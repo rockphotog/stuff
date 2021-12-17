@@ -12,6 +12,7 @@
             { "urn " : "urn:oid:2.16.578.1.12.4" },
             { "name" : "helse-og-sosialsektoren" },
             { "description" : "Rot for helse- og sosialsektoren" },
+
             { "owner" : "Direkoratet for e-helse" },
             { "inuse" : true }
         ]},
@@ -21,6 +22,7 @@
             { "urn " : "urn:oid:2.16.578.1.12.4.1" },
             { "name" : "tildelt-av-kith" },
             { "description" : "Rot for oid'er tildelt av KITH" },
+            { "isRoot" : true },
             { "owner" : "Direkoratet for e-helse" },
             { "inuse" : true }
         ]},
@@ -30,6 +32,7 @@
             { "urn " : "urn:oid:2.16.578.1.12.4.1.1" },
             { "name" : "kodeverk" },
             { "description" : "Rot for kodeverk publisert på Volven" },
+            { "isRoot" : true },
             { "owner" : "Direkoratet for e-helse" },
             { "inuse" : true }
         ]},
@@ -39,8 +42,10 @@
             { "urn " : "urn:oid:2.16.578.1.12.4.1.2" },
             { "name" : "her-id" },
             { "description" : "Rot for HER-id'er" },
+            { "isRoot" : true },
             { "owner" : "Norsk helsenett" },
-            { "inuse" : true }
+            { "inuse" : true },
+            { "__comment__" : "Må IKKE brukes for å identifisere HER som en type ID, se TODO" }
         ]},
 
         { "entry" : [
@@ -48,6 +53,7 @@
             { "urn " : "urn:oid:2.16.578.1.12.4.1.4" },
             { "name" : "identifikator" },
             { "description" : "Rot for Identifikatorer" },
+            { "isRoot" : true },
             { "owner" : "Direkoratet for e-helse" },
             { "inuse" : false },
             { "__comment__" : "Opprettet, men ikke tatt i bruk; Espen: sette til inuse=true" }
@@ -144,6 +150,7 @@
             { "urn " : "urn:oid:2.16.578.1.12.4.1.6" },
             { "name" : "epj-komponenttype" },
             { "description" : "Rot for EPJ-komponenter" },
+            { "isRoot" : true },
             { "owner" : "Direktoratet for e-helse" },
             { "inuse" : true }
         ]},
@@ -153,6 +160,7 @@
             { "urn " : "urn:oid:2.16.578.1.12.4.1.6.11" },
             { "name" : "epj-dataelementtype" },
             { "description" : "Rot for dataelementtype" },
+            { "isRoot" : true },
             { "owner" : "Direktoratet for e-helse" },
             { "inuse" : true },
             { "__comment__" : "" }
@@ -163,6 +171,7 @@
             { "urn " : "urn:oid:2.16.578.1.12.4.1.6.12" },
             { "name" : "epj-fragmenttype" },
             { "description" : "Rot for EPJ fragmenttype" },
+            { "isRoot" : true },
             { "owner" : "Direktoratet for e-helse" },
             { "inuse" : true },
             { "__comment__" : "" }
@@ -173,6 +182,7 @@
             { "urn " : "urn:oid:2.16.578.1.12.4.1.6.13" },
             { "name" : "epj-dokumenttype" },
             { "description" : "Rot for EPJ dokumenttype" },
+            { "isRoot" : true },
             { "owner" : "Direktoratet for e-helse" },
             { "inuse" : true }
         ]},
@@ -182,6 +192,7 @@
             { "urn " : "urn:oid:2.16.578.1.12.4.1.6.14" },
             { "name" : "epj-sakstype" },
             { "description" : "Rot for EPJ sakstype" },
+            { "isRoot" : true },
             { "owner" : "Direktoratet for e-helse" },
             { "inuse" : true }
         ]},
@@ -191,6 +202,7 @@
             { "urn " : "urn:oid:2.16.578.1.12.4.2" },
             { "name" : "helse-midt-norge" },
             { "description" : "Rot for Helse Midt-Norge" },
+            { "isRoot" : true },
             { "owner" : "Helse Midt-Norge RHF" },
             { "inuse" : true }
         ]},
@@ -200,6 +212,7 @@
             { "urn " : "urn:oid:2.16.578.1.12.4.3" },
             { "name" : "helse-sør-øst" },
             { "description" : "Rot for Helse SørØst" },
+            { "isRoot" : true },
             { "owner" : "Helse Sør-Øst RHF" },
             { "inuse" : false },
             { "__comment__" : "Opprettet, men ikke informert helse sør-øst" },
@@ -211,6 +224,7 @@
             { "urn " : "urn:oid:2.16.578.1.12.4.4" },
             { "name" : "helse-nord" },
             { "description" : "Rot for Helse Nord" },
+            { "isRoot" : true },
             { "owner" : "Helse Nord RHF" },
             { "inuse" : false },
             { "__comment__" : "Opprettet, men ikke informert helse nord" }
@@ -221,6 +235,7 @@
             { "urn " : "urn:oid:2.16.578.1.12.4.1.7" },
             { "name" : "dokumentdeling" },
             { "description" : "Rot for dokumentdeling" },
+            { "isRoot" : true },
             { "owner" : "Direktoratet for e-helse" },
             { "inuse" : true }
         ]},
@@ -286,7 +301,9 @@
             { "name" : "definisjonskataloger" },
             { "description" : "" },
             { "owner" : "Direktoratet for e-helse" },
-            { "inuse" : true }
+            { "inuse" : true },
+            { "__comment__" : "Rot?" },
+            { "__needsQA__" : true } 
         ]},
 
         { "entry" : [
