@@ -1,7 +1,7 @@
 { "oid-ehelse" : [
     { "info" : [
         { "master" : "https://raw.githubusercontent.com/rockphotog/stuff/main/oid-ehelse/oid-ehelse.json" },
-        { "updated" : "2021-12-16T22:34:00.00" }, 
+        { "updated" : "2021-12-17T1:30:00.00" }, 
         { "contact" : "meldingshjelp@ehelse.no" },
         { "__comment__" : "Arbeidskladd - Espen - test - do not use" }
     ]},
@@ -12,7 +12,7 @@
             { "urn " : "urn:oid:2.16.578.1.12.4" },
             { "name" : "helse-og-sosialsektoren" },
             { "description" : "Rot for helse- og sosialsektoren" },
-
+            { "isRoot" : true },
             { "owner" : "Direkoratet for e-helse" },
             { "inuse" : true }
         ]},
