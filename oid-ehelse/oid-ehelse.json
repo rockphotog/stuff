@@ -231,6 +231,41 @@
         ]},
 
         { "entry" : [
+            { "oid " : "2.16.578.1.12.4.5" },
+            { "urn " : "urn:oid:2.16.578.1.12.4.5" },
+            { "name" : "norsk-helsenett" },
+            { "description" : "Norsk helsenett" },
+            { "isRoot" : true },
+            { "owner" : "Norsk helsenett" },
+            { "inuse" : true },
+            { "__needsQA__" : true } 
+        ]},
+
+        { "entry" : [
+            { "oid " : "2.16.578.1.12.4.6" },
+            { "urn " : "urn:oid:2.16.578.1.12.4.6" },
+            { "name" : "kommuner" },
+            { "description" : "Rot for kommuner" },
+            { "isRoot" : true },
+            { "owner" : "Direktoratet for e-helse" },
+            { "inuse" : true },
+            { "__comment__" : "Riktig eier må bestemmes" },
+            { "__needsQA__" : true } 
+        ]},
+
+        { "entry" : [
+            { "oid " : "2.16.578.1.12.4.6.1" },
+            { "urn " : "urn:oid:2.16.578.1.12.4.6.1" },
+            { "name" : "oslo-kommune" },
+            { "description" : "Oslo kommune" },
+            { "isRoot" : true },
+            { "owner" : "" },
+            { "inuse" : false },
+            { "__comment__" : "" },
+            { "__needsQA__" : true } 
+        ]},
+
+        { "entry" : [
             { "oid " : "2.16.578.1.12.4.1.7" },
             { "urn " : "urn:oid:2.16.578.1.12.4.1.7" },
             { "name" : "dokumentdeling" },
