@@ -259,9 +259,9 @@
             { "name" : "oslo-kommune" },
             { "description" : "Oslo kommune" },
             { "isRoot" : true },
-            { "owner" : "" },
+            { "owner" : "Oslo kommune" },
             { "inuse" : false },
-            { "__comment__" : "" },
+            { "documentation" : "https://oslokommune.example.com/om-våre-oid" },
             { "__needsQA__" : true } 
         ]},
 
