@@ -9,11 +9,13 @@
         { "entry" : [
             { "oid " : "" },
             { "urn " : "urn:oid:" },
+            { "canonicalUri" : "" },
             { "name" : "" },
             { "description" : "" },
             { "isRoot" : false },
             { "owner" : "" },
             { "inuse" : true },
+            { "documentation" : "https://" }, 
             { "__comment__" : "" },
             { "__needsQA__" : true } 
         ]},
