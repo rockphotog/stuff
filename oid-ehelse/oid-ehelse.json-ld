@@ -1,0 +1,25 @@
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "BreadcrumbList",
+ "itemListElement":
+ [
+  {
+   "@type": "ListItem",
+   "item":
+   {
+    "@id": "2.16.578.1.12.4",
+    "name": "helse-og-sosialsektoren"
+    }
+  },
+  {
+   "@type": "ListItem",
+  "item":
+   {
+     "@id": "https://example.com/dresses/real",
+     "name": "Real Dresses"
+   }
+  }
+ ]
+}
+</script>
