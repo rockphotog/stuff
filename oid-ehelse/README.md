@@ -9,6 +9,10 @@ Utvikling, skal publiseres annet sted, så ikke bruk denne.
 - Lage JSON Schema
 - Lage _pen_ generator for XHTML-tabell
 
+# Flere planer
+- [JSON Linked Data](https://www.w3.org/TR/json-ld11/)
+- RDF/OWL/Turtle eller hva som flyter
+
 ## Note to self
 
 https://json-schema.org/learn/getting-started-step-by-step (veldig klønete format, da)
