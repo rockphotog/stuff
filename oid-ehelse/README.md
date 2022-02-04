@@ -17,6 +17,9 @@ Utvikling, skal publiseres annet sted, så ikke bruk denne.
 - https://schema.org/
 - https://www.gs1.org/voc/
 
+## Noen aktuelle
+- https://schema.org/identifier
+
 ## Note to self
 
 https://json-schema.org/learn/getting-started-step-by-step (veldig klønete format, da)
