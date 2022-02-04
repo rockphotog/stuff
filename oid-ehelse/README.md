@@ -13,6 +13,10 @@ Utvikling, skal publiseres annet sted, så ikke bruk denne.
 - [JSON Linked Data](https://www.w3.org/TR/json-ld11/)
 - RDF/OWL/Turtle eller hva som flyter
 
+# Vokabulær
+- https://schema.org/
+- https://www.gs1.org/voc/
+
 ## Note to self
 
 https://json-schema.org/learn/getting-started-step-by-step (veldig klønete format, da)
