@@ -8,6 +8,7 @@ Utvikling, skal publiseres annet sted, så ikke bruk denne.
 
 - Lage JSON Schema
 - Lage _pen_ generator for XHTML-tabell
+- Vurdere å basere det på JSON-LD (se under)
 
 # Flere planer og ressurser
 - [DCAT-AP-NO](https://www.digdir.no/digitale-felleslosninger/dcatdata-catalog-vocabulary/1677#:~:text=DCAT-AP-NO%20er%20basert%20p%C3%A5%20den%20europeiske%20DCAT-profilen%20som,ei%20maskinlesbar%20form.%20Standarden%20gjeld%20for%20f%C3%B8lgjande%20bruksomr%C3%A5de%3A)
